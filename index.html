@@ -1,39 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>홈페이지구현</title>
   <!--폰트어썸 CDN-->
   <script src="https://kit.fontawesome.com/632d3e2496.js" crossorigin="anonymous"></script>
-  <!--외부정의 Css-->
+  <!--외부정의 CSS-->
   <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
+  <!--사이드 고정 메뉴-->
+  <div class="side">
+    <div class="title">메뉴</div>
+    <ul>
+      <li><a href="#">메인</a></li>
+      <li><a href="#">인재찾기</a></li>
+      <li><a href="#">일자리찾기</a></li>
+    </ul>
+  </div>
+
+  <!--탑버튼-->
+  <div class="top">
+    <a href="#top"><i class="fas fa-caret-square-up"></i>Click!</a>
+  </div>
   <!--header-->
   <header id="header">
     <div class="container">
-<!--logo-->
-<h1 class="logo">
-  <a href="#">
-    <span style="font-weight: bold;">creative</span>
-    <span style="font-style: italic; ">plus</span>
-  </a>
-</h1>
-<!--nav-->
-<nav>
-  <ul class="gnb">
-    <li class="active"><a href="#">메인</a></li>
-    <li><a href="#">인재찾기</a></li>
-    <li><a href="#">일자리찾기</a></li>
-  </ul>
-  <ul class="icon">
-    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-  </ul>
-</nav>
-</div>
+      <!--logo-->
+      <h1 class="logo">
+        <a href="#">
+          <span style="font-weight: bold;">creative</span>
+          <span style="font-style: italic;">plus</span>
+        </a>
+      </h1>
+      <!--nav-->
+      <nav>
+        <ul class="gnb">
+          <li class="active"><a href="#">메인</a></li>
+          <li><a href="#">인재찾기</a></li>
+          <li><a href="#">일자리찾기</a></li>
+        </ul>
+        <ul class="icon">
+          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <!--상단배너-->
   <section id="banner">
@@ -84,7 +100,7 @@
       <h1>
         <i class="fas fa-plus"></i>ABOUT US 소개
       </h1>
-      <p>크리에이티브 플러스를 소개합니다</p>
+      <p>크리에이티브 플러스를 소개합니다!</p>
       <ul class="member">
         <li>
           <img src="img/avatar1.png" alt="">
@@ -92,12 +108,12 @@
           <p>공동대표</p>
         </li>
         <li>
-          <img src="img/avatar2.png" alt="">
+          <img src="img/avatar3.png" alt="">
           <h3>이 름</h3>
           <p>공동대표</p>
         </li>
         <li>
-          <img src="img/avatar3.png" alt="">
+          <img src="img/avatar2.png" alt="">
           <h3>이 름</h3>
           <p>컨설팅</p>
         </li>
@@ -108,84 +124,90 @@
         </li>
       </ul>
       <ul class="txt">
-        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, dolorem necessitatibus repellendus quas id quasi ea excepturi corrupti. Saepe, laudantium iste praesentium sapiente perspiciatis debitis! Voluptatum fugit aspernatur laborum error.</li>
-        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, dolorem necessitatibus repellendus quas id quasi ea excepturi corrupti. Saepe, laudantium iste praesentium sapiente perspiciatis debitis! Voluptatum fugit aspernatur laborum error.</li>
+        <li>그 있다 있는, 이 바람은 영향을 대하면 지구로 것 한 이러하다. 아침이지 하다오 이사도 2026년 쉬다. 연못으로 것 만가 고양이가 가진 유로 늘어지어요. 생각한 것 이러하고 쉽으냐 지내라.
+          그리고 동안이고, 청각적 비판에 놓아 수 담고 끼얹어. 기다리다 견직물만 나간 사랑할 제각기 적절하다 아닌가. 문맥이 기능에게 이러하고 버리면서 하는 경계보다 파악하다. 다지어 이렇다 37초
+          위반이어 합시다.</li>
+        <li>그 있다 있는, 이 바람은 영향을 대하면 지구로 것 한 이러하다. 아침이지 하다오 이사도 2026년 쉬다. 연못으로 것 만가 고양이가 가진 유로 늘어지어요. 생각한 것 이러하고 쉽으냐 지내라.
+          그리고 동안이고, 청각적 비판에 놓아 수 담고 끼얹어. 기다리다 견직물만 나간 사랑할 제각기 적절하다 아닌가. 문맥이 기능에게 이러하고 버리면서 하는 경계보다 파악하다. 다지어 이렇다 37초
+          위반이어 합시다.</li>
       </ul>
     </div>
   </section>
 
   <!--contact-->
-    <section id="contact">
-        <div class="container">
-            <h1>
-                <i class="fas fa-plus"></i>CONTACT
-            </h1>
-            <p>궁금한 내용은 언제든지 문의하세요!</p>
-            <div class="contact-wrap">
-                <div class="address">
-                    <p>
-                        <i class="far fa-envelope"></i>
-                        abcd@XXX.com <br>
-                        <i class="fas fa-phone-volume"></i>
-                        031-000-0000
-                    </p>
-                    <p>
-                        성남동 3219번지 아트팰리스 5층<br>
-                        110-240
-                    </p>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.183559597135!2d127.12706207674792!3d37.43276823178589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca883edba994b%3A0x4596928dcfc16191!2z65GQ65Oc66a8SVTqtZDsnKHsm5A!5e0!3m2!1sko!2skr!4v1755139477027!5m2!1sko!2skr"
-                        width="360" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="contact-input">
-                    <form>
-                        <label>
-                            크리에이티브 플러스와 함께<br>
-                            끼와 재능을 펼쳐보세요!
-                        </label>
-                        <div class="wrap">
-                            <p>
-                                <input type="text" placeholder="이름">
-                                <input type="text" placeholder="이메일">
-                                <input type="text" placeholder="제목">
-                                <input type="submit" value="보내기">
-                            </p>
-                            <textarea placeholder="메시지"></textarea>
-                        </div>
-                    </form>
-                    <hr>
-                    <form>
-                        <label>
-                            크리에이티브 플러스의<br>
-                            놀라운 인재들을 만나보세요!
-                        </label>
-                        <div class="wrap">
-                            <p>
-                                <input type="text" placeholder="이름">
-                                <input type="text" placeholder="이메일">
-                                <input type="text" placeholder="제목">
-                                <input type="submit" value="보내기">
-                            </p>
-                            <textarea placeholder="메시지"></textarea>
-                        </div>
-                    </form>
-                </div>
-            </div>
+  <section id="contact">
+    <div class="container">
+      <h1>
+        <i class="fas fa-plus"></i>CONTACT
+      </h1>
+      <p>궁금한 내용은 언제든지 문의하세요!</p>
+      <div class="contact-wrap">
+        <div class="address">
+          <p>
+            <i class="far fa-envelope"></i>
+            abcd@XXX.com <br>
+            <i class="fas fa-phone-volume"></i> 031-000-0000
+          </p>
+          <p>
+            성남동 3219번지 아트팰리스 5층<br>
+            110-240
+          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.1835595921943!2d127.12706744078056!3d37.43276823190263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca883edba994b%3A0x4596928dcfc16191!2z65GQ65Oc66a8SVTqtZDsnKHsm5A!5e0!3m2!1sko!2skr!4v1755139476959!5m2!1sko!2skr"
+            width="360" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-    </section>
-    <!--footer-->
-    <footer id="footer">
-        <p>
-            <span>Copyright &copy; 2025 by CREATIVE PLUS.</span>
-            <a href="#">abcd@XXX.com</a>
-            성남동 3219번지 아트팰리스 5층, 110-240
-        </p>
-        <ul class="icon">
-            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-        </ul>
-    </footer>
+        <div class="contact-input">
+          <form>
+            <label>
+              크리에이티브 플러스와 함께<br>
+              끼와 재능을 펼쳐보세요!
+            </label>
+            <div class="wrap">
+              <p>
+                <input type="text" placeholder="이름">
+                <input type="text" placeholder="이메일">
+                <input type="text" placeholder="제목">
+                <input type="submit" value="보내기">
+              </p>
+              <textarea placeholder="메시지"></textarea>
+            </div>
+          </form>
+          <hr>
+          <form>
+            <label>
+              크리에이티브 플러스의<br>
+              놀라운 인재들을 만나보세요!
+            </label>
+            <div class="wrap">
+              <p>
+                <input type="text" placeholder="이름">
+                <input type="text" placeholder="이메일">
+                <input type="text" placeholder="제목">
+                <input type="submit" value="보내기">
+              </p>
+              <textarea placeholder="메시지"></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--footer-->
+  <footer id="footer">
+    <div class="container">
+      <p>
+        <span>Copyright &copy; 2025 by CREATIVE PLUS.</span>
+        <a href="#">abcd@XXX.com</a>
+        성남동 3219번지 아트팰리스 5층, 110-240
+      </p>
+      <ul class="icon">
+        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>
